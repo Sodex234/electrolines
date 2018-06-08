@@ -3,10 +3,24 @@
     <head>
         <title>ElectoLines - Playing as <%- username%></title>
         <script type="text/javascript">
-            var USERNAME = <%- username%>;
+            var USERNAME = <%- username %>;
         </script>
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../game/game.js"></script>
+
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                cursor: none;
+            }
+        </style>
     </head>
     <body>
-        <p><%- username %></p>
+        <canvas id="gameCanvas"></canvas>
+        <h1 class="loading" style="text-align: center; font-family: sans-serif; color: #2d3436;">Loading...</h1>
     </body>
 </html>
