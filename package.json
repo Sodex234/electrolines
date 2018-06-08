@@ -1,0 +1,13 @@
+{
+  "name": "electrolines",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "socket.io": "^2.1.1"
+  }
+}
